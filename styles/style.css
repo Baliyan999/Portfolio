@@ -766,6 +766,7 @@ body{
     .circle6{
         bottom: 40px;
     }
+
 }
 @media(max-width: 767px) {
     .works .nav-pills{
@@ -778,8 +779,11 @@ body{
     .footer__link{
         padding: 10px 0;
     }
-    .circle2{
+    /* .circle2{
         bottom: -7%;
+    } */
+    .cube, .circle{
+        display: none;
     }
 }
 @media(max-width: 550px) {
@@ -812,7 +816,7 @@ body{
     .front__link{
         margin: 0 auto;
     }
-    .circle3{
+    /* .circle3{
         top: -22px;
-    }
+    } */
 }
